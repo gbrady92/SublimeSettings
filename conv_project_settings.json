@@ -1,0 +1,59 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "\"python\" -u \"$file\""
+		}
+	],
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.min.*",
+				"*.css",
+				"*.svg",
+				"app.js",
+				"app.js.map",
+				"*.js",
+				"*.coverage",
+				"*.DS_Store",
+				"*.noseids",
+				".log",
+				"nosetests.xml",
+				"all_cities.csv",
+				"timezones.json",
+				"sample_local_settings.py",
+				"npm-debug.log",
+				"requirements-nlp-pypi.txt",
+				"requirements-nlp.txt",
+				"requirements-pypi.txt",
+				"*.whl",
+				"*.yml",
+				"Dockerfile",
+				"*.scssc"
+			],
+			"folder_exclude_patterns":
+			[
+				"node_modules",
+				"account/node_modules",
+				"clipboard/node_modules",
+				"command/node_modules",
+				"communities/node_modules",
+				"conversations/node_modules",
+				"customerpanel/node_modules",
+				"deepanalytics/node_modules",
+				"management_dashboard/node_modules",
+				"test-results",
+				"cheeseshop",
+				"deploy",
+				"solr-da/config/cases/conf/lang/",
+				"dotfiles"
+			],
+			"path": "/Users/garethbrady/conversocial"
+		}
+	]
+}

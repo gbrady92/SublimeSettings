@@ -1,0 +1,33 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "\"python\" -u \"$file\""
+		}
+	],
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+            [
+                "*.coverage",
+                "*.DS_Store",
+                "*.noseids",
+                ".log",
+                "nosetests.xml",
+                "all_cities.csv",
+                "timezones.json",
+                "sample_local_settings.py",
+                "npm-debug.log",
+                "requirements-nlp-pypi.txt",
+                "requirements-nlp.txt",
+                "requirements-pypi.txt",
+                ".json"
+            ],
+			"path": "/Users/garethbrady/conversocial/src"
+		}
+	]
+}

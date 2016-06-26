@@ -1,0 +1,32 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/garethbrady/conversocial/frontend2",
+			"folder_exclude_patterns":
+            [
+            	"node_modules",
+                "account/node_modules",
+                "clipboard/node_modules",
+                "command/node_modules",
+                "communities/node_modules",
+                "conversations/node_modules",
+                "customerpanel/node_modules",
+                "deepanalytics/node_modules",
+                "management_dashboard/node_modules",
+                "test-results"
+            ],
+            "file_exclude_patterns":
+            [
+                "*.min.*",
+                "*.css",
+                "*.svg",
+                "app.js",
+                "app.js.map",
+                "run.js",
+                "modernizr.custom.js"
+
+            ]
+		}
+	]
+}
